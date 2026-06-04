@@ -1,1 +1,1 @@
-web: gunicorn reward:app
+web: python reward.py
