@@ -1,4 +1,2 @@
-flask
-pyTelegramBotAPI
-Pillow
-gunicorn
+python-telegram-bot==21.0
+python-dotenv
