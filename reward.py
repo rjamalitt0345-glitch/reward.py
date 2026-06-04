@@ -9,8 +9,9 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # ╔══════════════════════════════╗
 # ║        CONFIGURATION         ║
 # ╚══════════════════════════════╝
-BOT_TOKEN        = "8891195223:AAFksMap9cKbhuhpc4OU0NoGMXBDuifq6wE"
-DEFAULT_REF_CODE = "TQAJ2JR2"
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID         = 5319770650
 USERS_FILE       = "bot_users.json"
 
