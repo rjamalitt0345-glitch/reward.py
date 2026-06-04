@@ -1,1 +1,1 @@
-worker: python reward.py
+web: gunicorn reward:app
